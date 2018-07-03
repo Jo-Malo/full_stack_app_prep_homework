@@ -18,6 +18,7 @@ Which of the games API routes does the front-end application consume (make reque
 **Extensions**
 
 What are we using the MongoDB Driver API for?
-- We use mongoDB Driver API because it's non-relational and can handle large collections of objects with different properties and stores this data in JSON docs which are perfect for JS. 
+- We use mongoDB Driver API because it's non-relational and can handle large collections of objects with different properties and stores this data in JSON docs which are perfect for JS.
 
 Why do we need to use ObjectId from the MongoDB driver API?
+- We need to use ObjectID to determine the ID of a specific object as a first step to updating it's details in PUT.
